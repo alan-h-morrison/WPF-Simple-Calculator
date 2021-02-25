@@ -13,17 +13,6 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace System.Windows.Controls
-{
-    public static class MyExt
-    {
-        public static void PerformClick(this Button btn)
-        {
-            btn.RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
-        }
-    }
-}
-
 namespace Calculator
 {
     /// <summary>
@@ -119,19 +108,6 @@ namespace Calculator
         {
             txtAnswer.Text = "0";
             value = 0;
-        }
-
-        private void Window_KeyDown(object sender, KeyEventArgs e)
-        {
-            switch (e.Key.ToString())
-            {
-                case "1":
-                    btnOne.PerformClick();
-                    break;
-                default:
-                    break;
-            }
-
         }
     }
 }

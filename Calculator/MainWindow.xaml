@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Calculator"
         mc:Ignorable="d"
-        Title="MainWindow" Height="552.433" Width="554" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" KeyDown="Window_KeyDown">
+        Title="MainWindow" Height="552.433" Width="554" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Grid>
         <Button x:Name="btnSeven" Content="7" VerticalAlignment="Top" Width="90" Margin="38,109,0,0" Height="90" FontSize="36" HorizontalAlignment="Left" Click="button_Click"/>
         <Button x:Name="btnEight" Content="8" VerticalAlignment="Top" Width="90" Margin="133,109,0,0" Height="90" FontSize="36" HorizontalAlignment="Left" Click="button_Click"/>
