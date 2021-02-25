@@ -7,25 +7,25 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="552.433" Width="554" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Grid>
-        <Button x:Name="btn1_Copy" Content="7" VerticalAlignment="Top" Width="90" Margin="38,109,0,0" Height="90" FontSize="36" HorizontalAlignment="Left"/>
-        <Button x:Name="btn1_Copy1" Content="8" VerticalAlignment="Top" Width="90" Margin="133,109,0,0" Height="90" FontSize="36" HorizontalAlignment="Left"/>
-        <Button x:Name="btn1_Copy2" Content="9" VerticalAlignment="Top" Width="90" Margin="228,109,0,0" Height="90" FontSize="36" HorizontalAlignment="Left"/>
-        <Button x:Name="btn1_Copy3" Content="÷" VerticalAlignment="Top" Width="90" Margin="323,109,0,0" Height="90" FontSize="36" HorizontalAlignment="Left"/>
-        <Button x:Name="btn1_Copy4" Content="4" VerticalAlignment="Top" Width="90" Margin="38,204,0,0" Height="90" FontSize="36" HorizontalAlignment="Left"/>
-        <Button x:Name="btn1_Copy5" Content="5" VerticalAlignment="Top" Width="90" Margin="133,204,0,0" Height="90" FontSize="36" HorizontalAlignment="Left"/>
-        <Button x:Name="btn1_Copy6" Content="6" VerticalAlignment="Top" Width="90" Margin="228,204,0,0" Height="90" FontSize="36" HorizontalAlignment="Left"/>
-        <Button x:Name="btn1_Copy7" Content="×" VerticalAlignment="Top" Width="90" Margin="323,204,0,0" Height="90" FontSize="36" HorizontalAlignment="Left"/>
-        <Button x:Name="btn1_Copy8" Content="1" VerticalAlignment="Top" Width="90" Margin="38,299,0,0" Height="90" FontSize="36" HorizontalAlignment="Left"/>
-        <Button x:Name="btn1_Copy9" Content="2" VerticalAlignment="Top" Width="90" Margin="133,299,0,0" Height="90" FontSize="36" HorizontalAlignment="Left"/>
-        <Button x:Name="btn1_Copy10" Content="3" VerticalAlignment="Top" Width="90" Margin="228,299,0,0" Height="90" FontSize="36" HorizontalAlignment="Left"/>
-        <Button x:Name="btn1_Copy11" Content="-" VerticalAlignment="Top" Width="90" Margin="323,299,0,0" Height="90" FontSize="36" HorizontalAlignment="Left"/>
-        <Button x:Name="btn1_Copy12" Content="0" VerticalAlignment="Top" Margin="38,394,0,-65" Height="90" FontSize="36" Width="185" HorizontalAlignment="Left"/>
-        <Button x:Name="btn1_Copy14" Content="." VerticalAlignment="Top" Width="90" Margin="228,394,0,-65" Height="90" FontSize="36" HorizontalAlignment="Left"/>
-        <Button x:Name="btn1_Copy15" Content="+" VerticalAlignment="Top" Width="90" Margin="323,394,0,-65" Height="90" FontSize="36" HorizontalAlignment="Left"/>
-        <Button x:Name="btn1_Copy13" Content="CE" VerticalAlignment="Top" Width="90" Margin="418,109,0,0" Height="90" FontSize="36" HorizontalAlignment="Left"/>
-        <Button x:Name="btn1_Copy16" Content="C" VerticalAlignment="Top" Width="90" Margin="418,204,0,0" Height="90" FontSize="36" HorizontalAlignment="Left"/>
-        <Button x:Name="btn1_Copy18" Content="=" VerticalAlignment="Top" Margin="418,299,0,0" Height="185" FontSize="36" HorizontalAlignment="Left" Width="90"/>
-        <TextBox Height="58" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="470" Margin="38,28,0,0" FontSize="40" HorizontalAlignment="Left" TextAlignment="Right"/>
+        <Button x:Name="btnSeven" Content="7" VerticalAlignment="Top" Width="90" Margin="38,109,0,0" Height="90" FontSize="36" HorizontalAlignment="Left" Click="button_Click"/>
+        <Button x:Name="btnEight" Content="8" VerticalAlignment="Top" Width="90" Margin="133,109,0,0" Height="90" FontSize="36" HorizontalAlignment="Left" Click="button_Click"/>
+        <Button x:Name="btnNine" Content="9" VerticalAlignment="Top" Width="90" Margin="228,109,0,0" Height="90" FontSize="36" HorizontalAlignment="Left" Click="button_Click"/>
+        <Button x:Name="btnDivide" Content="÷" VerticalAlignment="Top" Width="90" Margin="323,109,0,0" Height="90" FontSize="36" HorizontalAlignment="Left" Click="operator_Click"/>
+        <Button x:Name="btnFour" Content="4" VerticalAlignment="Top" Width="90" Margin="38,204,0,0" Height="90" FontSize="36" HorizontalAlignment="Left" Click="button_Click"/>
+        <Button x:Name="btnFive" Content="5" VerticalAlignment="Top" Width="90" Margin="133,204,0,0" Height="90" FontSize="36" HorizontalAlignment="Left" Click="button_Click"/>
+        <Button x:Name="btnSix" Content="6" VerticalAlignment="Top" Width="90" Margin="228,204,0,0" Height="90" FontSize="36" HorizontalAlignment="Left" Click="button_Click"/>
+        <Button x:Name="btnTimes" Content="×" VerticalAlignment="Top" Width="90" Margin="323,204,0,0" Height="90" FontSize="36" HorizontalAlignment="Left" Click="operator_Click"/>
+        <Button x:Name="btnOne" Content="1" VerticalAlignment="Top" Width="90" Margin="38,299,0,0" Height="90" FontSize="36" HorizontalAlignment="Left" Click="button_Click"/>
+        <Button x:Name="btnTwo" Content="2" VerticalAlignment="Top" Width="90" Margin="133,299,0,0" Height="90" FontSize="36" HorizontalAlignment="Left" Click="button_Click"/>
+        <Button x:Name="btnThree" Content="3" VerticalAlignment="Top" Width="90" Margin="228,299,0,0" Height="90" FontSize="36" HorizontalAlignment="Left" Click="button_Click"/>
+        <Button x:Name="btnMinus" Content="-" VerticalAlignment="Top" Width="90" Margin="323,299,0,0" Height="90" FontSize="36" HorizontalAlignment="Left" Click="operator_Click"/>
+        <Button x:Name="btnZero" Content="0" VerticalAlignment="Top" Margin="38,394,0,-65" Height="90" FontSize="36" Width="185" HorizontalAlignment="Left" Click="button_Click"/>
+        <Button x:Name="btnDecimal" Content="." VerticalAlignment="Top" Width="90" Margin="228,394,0,-65" Height="90" FontSize="36" HorizontalAlignment="Left" Click="button_Click"/>
+        <Button x:Name="btnPlus" Content="+" VerticalAlignment="Top" Width="90" Margin="323,394,0,-65" Height="90" FontSize="36" HorizontalAlignment="Left" Click="operator_Click"/>
+        <Button x:Name="btnCLearEntry" Content="CE" VerticalAlignment="Top" Width="90" Margin="418,109,0,0" Height="90" FontSize="36" HorizontalAlignment="Left" Click="btnCLearEntry_Click"/>
+        <Button x:Name="btnClear" Content="C" VerticalAlignment="Top" Width="90" Margin="418,204,0,0" Height="90" FontSize="36" HorizontalAlignment="Left"/>
+        <Button x:Name="btnEquals" Content="=" VerticalAlignment="Top" Margin="418,299,0,0" Height="185" FontSize="36" HorizontalAlignment="Left" Width="90"/>
+        <TextBox x:Name="txtAnswer" Height="58" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="470" Margin="38,28,0,0" FontSize="40" HorizontalAlignment="Left" TextAlignment="Right"/>
 
     </Grid>
 </Window>
