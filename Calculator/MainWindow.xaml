@@ -5,28 +5,28 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Calculator"
         mc:Ignorable="d"
-        Title="MainWindow" Height="552.433" Width="554" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+        Title="MainWindow" Height="566.635" Width="554" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Grid>
-        <Button x:Name="btnSeven" Content="7" VerticalAlignment="Top" Width="90" Margin="38,109,0,0" Height="90" FontSize="36" HorizontalAlignment="Left" Click="button_Click"/>
-        <Button x:Name="btnEight" Content="8" VerticalAlignment="Top" Width="90" Margin="133,109,0,0" Height="90" FontSize="36" HorizontalAlignment="Left" Click="button_Click"/>
-        <Button x:Name="btnNine" Content="9" VerticalAlignment="Top" Width="90" Margin="228,109,0,0" Height="90" FontSize="36" HorizontalAlignment="Left" Click="button_Click"/>
-        <Button x:Name="btnDivide" Content="÷" VerticalAlignment="Top" Width="90" Margin="323,109,0,0" Height="90" FontSize="36" HorizontalAlignment="Left" Click="operator_Click"/>
-        <Button x:Name="btnFour" Content="4" VerticalAlignment="Top" Width="90" Margin="38,204,0,0" Height="90" FontSize="36" HorizontalAlignment="Left" Click="button_Click"/>
-        <Button x:Name="btnFive" Content="5" VerticalAlignment="Top" Width="90" Margin="133,204,0,0" Height="90" FontSize="36" HorizontalAlignment="Left" Click="button_Click"/>
-        <Button x:Name="btnSix" Content="6" VerticalAlignment="Top" Width="90" Margin="228,204,0,0" Height="90" FontSize="36" HorizontalAlignment="Left" Click="button_Click"/>
-        <Button x:Name="content" Content="×" VerticalAlignment="Top" Width="90" Margin="323,204,0,0" Height="90" FontSize="36" HorizontalAlignment="Left" Click="operator_Click"/>
-        <Button x:Name="btnOne" Content="1" VerticalAlignment="Top" Width="90" Margin="38,299,0,0" Height="90" FontSize="36" HorizontalAlignment="Left" Click="button_Click"/>
-        <Button x:Name="btnTwo" Content="2" VerticalAlignment="Top" Width="90" Margin="133,299,0,0" Height="90" FontSize="36" HorizontalAlignment="Left" Click="button_Click"/>
-        <Button x:Name="btnThree" Content="3" VerticalAlignment="Top" Width="90" Margin="228,299,0,0" Height="90" FontSize="36" HorizontalAlignment="Left" Click="button_Click"/>
-        <Button x:Name="btnMinus" Content="-" VerticalAlignment="Top" Width="90" Margin="323,299,0,0" Height="90" FontSize="36" HorizontalAlignment="Left" Click="operator_Click"/>
-        <Button x:Name="btnZero" Content="0" VerticalAlignment="Top" Margin="38,394,0,-65" Height="90" FontSize="36" Width="185" HorizontalAlignment="Left" Click="button_Click"/>
-        <Button x:Name="btnDecimal" Content="." VerticalAlignment="Top" Width="90" Margin="228,394,0,-65" Height="90" FontSize="36" HorizontalAlignment="Left" Click="button_Click"/>
-        <Button x:Name="btnPlus" Content="+" VerticalAlignment="Top" Width="90" Margin="323,394,0,-65" Height="90" FontSize="36" HorizontalAlignment="Left" Click="operator_Click"/>
-        <Button x:Name="btnCLearEntry" Content="CE" VerticalAlignment="Top" Width="90" Margin="418,109,0,0" Height="90" FontSize="36" HorizontalAlignment="Left" Click="btnCLearEntry_Click"/>
-        <Button x:Name="btnClear" Content="C" VerticalAlignment="Top" Width="90" Margin="418,204,0,0" Height="90" FontSize="36" HorizontalAlignment="Left" Click="btnClear_Click"/>
-        <Button x:Name="btnEquals" Content="=" VerticalAlignment="Top" Margin="418,299,0,0" Height="185" FontSize="36" HorizontalAlignment="Left" Width="90" Click="btnEquals_Click"/>
-        <TextBox x:Name="txtAnswer" Height="58" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="470" Margin="38,28,0,0" FontSize="40" HorizontalAlignment="Left" TextAlignment="Right"/>
-        <Label x:Name="lblEquation" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="39,39,0,0" FontSize="20" Foreground="#FF8B8B8B"/>
+        <Button x:Name="btnSeven" Content="7" VerticalAlignment="Top" Width="90" Margin="38,131,0,0" Height="90" FontSize="36" HorizontalAlignment="Left" Click="button_Click"/>
+        <Button x:Name="btnEight" Content="8" VerticalAlignment="Top" Width="90" Margin="133,131,0,0" Height="90" FontSize="36" HorizontalAlignment="Left" Click="button_Click"/>
+        <Button x:Name="btnNine" Content="9" VerticalAlignment="Top" Width="90" Margin="228,131,0,0" Height="90" FontSize="36" HorizontalAlignment="Left" Click="button_Click"/>
+        <Button x:Name="btnDivide" Content="÷" VerticalAlignment="Top" Width="90" Margin="323,131,0,0" Height="90" FontSize="36" HorizontalAlignment="Left" Click="operator_Click"/>
+        <Button x:Name="btnFour" Content="4" VerticalAlignment="Top" Width="90" Margin="38,226,0,0" Height="90" FontSize="36" HorizontalAlignment="Left" Click="button_Click"/>
+        <Button x:Name="btnFive" Content="5" VerticalAlignment="Top" Width="90" Margin="133,226,0,0" Height="90" FontSize="36" HorizontalAlignment="Left" Click="button_Click"/>
+        <Button x:Name="btnSix" Content="6" VerticalAlignment="Top" Width="90" Margin="228,226,0,0" Height="90" FontSize="36" HorizontalAlignment="Left" Click="button_Click"/>
+        <Button x:Name="content" Content="×" VerticalAlignment="Top" Width="90" Margin="323,226,0,0" Height="90" FontSize="36" HorizontalAlignment="Left" Click="operator_Click"/>
+        <Button x:Name="btnOne" Content="1" VerticalAlignment="Top" Width="90" Margin="38,321,0,0" Height="90" FontSize="36" HorizontalAlignment="Left" Click="button_Click"/>
+        <Button x:Name="btnTwo" Content="2" VerticalAlignment="Top" Width="90" Margin="133,321,0,0" Height="90" FontSize="36" HorizontalAlignment="Left" Click="button_Click"/>
+        <Button x:Name="btnThree" Content="3" VerticalAlignment="Top" Width="90" Margin="228,321,0,0" Height="90" FontSize="36" HorizontalAlignment="Left" Click="button_Click"/>
+        <Button x:Name="btnMinus" Content="-" VerticalAlignment="Top" Width="90" Margin="323,321,0,0" Height="90" FontSize="36" HorizontalAlignment="Left" Click="operator_Click"/>
+        <Button x:Name="btnZero" Content="0" VerticalAlignment="Top" Margin="38,416,0,0" Height="90" FontSize="36" Width="185" HorizontalAlignment="Left" Click="button_Click"/>
+        <Button x:Name="btnDecimal" Content="." VerticalAlignment="Top" Width="90" Margin="228,416,0,0" Height="90" FontSize="36" HorizontalAlignment="Left" Click="button_Click"/>
+        <Button x:Name="btnPlus" Content="+" VerticalAlignment="Top" Width="90" Margin="323,416,0,0" Height="90" FontSize="36" HorizontalAlignment="Left" Click="operator_Click"/>
+        <Button x:Name="btnCLearEntry" Content="CE" VerticalAlignment="Top" Width="90" Margin="418,131,0,0" Height="90" FontSize="36" HorizontalAlignment="Left" Click="btnCLearEntry_Click"/>
+        <Button x:Name="btnClear" Content="C" VerticalAlignment="Top" Width="90" Margin="418,226,0,0" Height="90" FontSize="36" HorizontalAlignment="Left" Click="btnClear_Click"/>
+        <Button x:Name="btnEquals" Content="=" VerticalAlignment="Top" Margin="418,321,0,0" Height="185" FontSize="36" HorizontalAlignment="Left" Width="90" Click="btnEquals_Click"/>
+        <TextBox x:Name="txtAnswer" Height="58" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="470" Margin="38,50,0,0" FontSize="40" HorizontalAlignment="Left" TextAlignment="Right"/>
+        <Label x:Name="lblEquation" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="38,13,0,0" FontSize="20" Foreground="#FF8B8B8B"/>
 
     </Grid>
 </Window>

@@ -42,10 +42,6 @@ namespace Calculator
             }
 
             operationPressed = false;
-            if(num != "0" && num != ".")
-            {
-                txtAnswer.Text = txtAnswer.Text + b.Content;
-            }
 
             if (num == ".")
             {
@@ -53,6 +49,17 @@ namespace Calculator
                 {
                     txtAnswer.Text = txtAnswer.Text + b.Content;
                 }
+            }
+            else if (num == "0")
+            {
+                if(!txtAnswer.Text.Equals("0"))
+                {
+                    txtAnswer.Text = txtAnswer.Text + b.Content;
+                }
+            }
+            else
+            {
+                txtAnswer.Text = txtAnswer.Text + b.Content;
             }
         }
 
@@ -107,6 +114,7 @@ namespace Calculator
         private void btnClear_Click(object sender, RoutedEventArgs e)
         {
             txtAnswer.Text = "0";
+
             value = 0;
         }
     }
